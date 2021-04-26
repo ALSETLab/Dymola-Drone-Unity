@@ -1,0 +1,140 @@
+{
+    "name": "DroneController",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "8a4c461d-2d10-43db-9727-e195c313db99",
+            "actions": [
+                {
+                    "name": "X_Neg",
+                    "type": "PassThrough",
+                    "id": "fa2d4588-f645-4a85-9f93-3a632deade5b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "X_Pos",
+                    "type": "PassThrough",
+                    "id": "a26d5dd4-1bd5-4e0c-b581-eeb9f00cb8d0",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Y_Neg",
+                    "type": "PassThrough",
+                    "id": "cac0dad2-5f8a-4e60-a667-8c60dd9285a7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Y_Pos",
+                    "type": "PassThrough",
+                    "id": "05b16ab4-e6eb-408d-aee8-563667c4c141",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Z_Pos",
+                    "type": "PassThrough",
+                    "id": "0813fc62-35b1-48bf-b679-d49137de94f7",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Z_Neg",
+                    "type": "PassThrough",
+                    "id": "5dff8174-b71e-4529-9bfe-a68fc8c33454",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5a176517-9214-48d2-88f8-4e9931713e15",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "General Gamepad",
+                    "action": "X_Neg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dad3d6c5-25e3-42a0-9de4-825f8a38d591",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "General Gamepad",
+                    "action": "X_Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e3490f3-c624-4ee9-9c99-360401358d24",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "General Gamepad",
+                    "action": "Y_Neg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac25abba-7b82-4dab-b87c-71a013502223",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "General Gamepad",
+                    "action": "Y_Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2eb17a19-3e10-4c84-9040-0f569193253c",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Z_Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ef644c3d-eb64-43bc-9e0b-fccce550be3d",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Z_Neg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "General Gamepad",
+            "bindingGroup": "General Gamepad",
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

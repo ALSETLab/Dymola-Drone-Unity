@@ -1,0 +1,209 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16259 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Program Files/Unity_Repository/Dymola Drone FMU Revised
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49679
+Successfully changed project path to: D:/Program Files/Unity_Repository/Dymola Drone FMU Revised
+D:/Program Files/Unity_Repository/Dymola Drone FMU Revised
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 17.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity_Repository/Dymola Drone FMU Revised/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   
+    VRAM:     10077 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001420 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 18.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.1 MB.
+System memory in use after: 57.2 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 1.232400 ms (FindLiveObjects: 0.139500 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.002400 ms  DeleteObjects: 0.041200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources
+  artifactKey: Guid(dbf3277dbb91e404a9055e9ba4345e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(dbf3277dbb91e404a9055e9ba4345e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd3ec8cab209313cff6584e9ee2134f') in 0.006221 seconds
+  Import took 0.007558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.442891 seconds.
+  path: Assets/Resources/DroneSimulation_Polling.asset
+  artifactKey: Guid(d4dbb0e20780a8040a74184f215e848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DroneSimulation_Polling.asset using Guid(d4dbb0e20780a8040a74184f215e848f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571fb98a7d44ec8a2bb1a86cbc3690d4') in 0.050912 seconds
+  Import took 0.052600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.687718 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025e4f587c23674256bb898581e82961') in 0.005750 seconds
+  Import took 0.007128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.780645 seconds.
+  path: Assets/DroneComponents
+  artifactKey: Guid(12382e20833a387429cf042068bbbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DroneComponents using Guid(12382e20833a387429cf042068bbbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa3516468c3d47884e653c5b654e68a') in 0.005971 seconds
+  Import took 0.007617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001446 seconds.
+  path: Assets/DroneComponents
+  artifactKey: Guid(12382e20833a387429cf042068bbbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DroneComponents using Guid(12382e20833a387429cf042068bbbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa3516468c3d47884e653c5b654e68a') in 0.001096 seconds
+  Import took 0.002390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.713784 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(56f9131fa1acabb40944a7ea11e90fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(56f9131fa1acabb40944a7ea11e90fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b362c8f64c69fc04174e3685508a3390') in 0.005664 seconds
+  Import took 0.007057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.100994 seconds.
+  path: Assets/Drone Components
+  artifactKey: Guid(12382e20833a387429cf042068bbbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components using Guid(12382e20833a387429cf042068bbbc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c93f893fcd2862bfbf7b0fdf10e1a9a') in 0.005535 seconds
+  Import took 0.006886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.646366 seconds.
+  path: Assets/Drone Components/DroneTSK.obj
+  artifactKey: Guid(757f198363efcb841b33793f9f107a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneTSK.obj using Guid(757f198363efcb841b33793f9f107a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf56762e9ee7ab988a5e6d5e9417faf2') in 0.306999 seconds
+  Import took 0.308713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.522458 seconds.
+  path: Assets/Drone Components/DroneController.inputactions
+  artifactKey: Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneController.inputactions using Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1771051e1e8747360c943a07a336a38b') in 0.007150 seconds
+  Import took 0.008691 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.532 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.0 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 1.073500 ms (FindLiveObjects: 0.132400 ms CreateObjectMapping: 0.037200 ms MarkObjects: 0.892200 ms  DeleteObjects: 0.011000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.715400 seconds.
+  path: Assets/Drone Components/DroneController.inputactions
+  artifactKey: Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneController.inputactions using Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff79f5784c2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff79f5e07d2 (Unity) ResolveArtifactV2
+0x00007ff79f63b650 (Unity) ImportToObjects
+0x00007ff79f63a888 (Unity) AssetImportWorker::Import
+0x00007ff79f599e8f (Unity) <lambda_77c748ffdfab40a7d87ea62709a69e39>::operator()
+0x00007ff79f6653a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff79f667500 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff79f66ac8e (Unity) asio::io_service::run
+0x00007ff79f5e0d10 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79f5e0d60 (Unity) RunAssetImporterV2
+0x00007ff79eaed086 (Unity) Application::InitializeProject
+0x00007ff79f46d292 (Unity) WinMain
+0x00007ff7a12e5fc6 (Unity) __scrt_common_main_seh
+0x00007ff8ebc57034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8ecaa2651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(-1,00000000000000000000000000000000), Assets/Drone Components/DroneController.inputactions from editor
+Resuming Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(-1,00000000000000000000000000000000) -> 00000000000000000000000000000000 (aborted)
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff79f5784c2 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff79f5e07d2 (Unity) ResolveArtifactV2
+0x00007ff79f5db391 (Unity) ProduceArtifactV2
+0x00007ff79f5419ee (Unity) AssetDatabase::ProduceArtifact
+0x00007ff79f5277e8 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff79f63ba19 (Unity) ImportToObjects
+0x00007ff79f63a888 (Unity) AssetImportWorker::Import
+0x00007ff79f599e8f (Unity) <lambda_77c748ffdfab40a7d87ea62709a69e39>::operator()
+0x00007ff79f6653a2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff79f667500 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff79f66ac8e (Unity) asio::io_service::run
+0x00007ff79f5e0d10 (Unity) RunAssetImportWorkerClientV2
+0x00007ff79f5e0d60 (Unity) RunAssetImporterV2
+0x00007ff79eaed086 (Unity) Application::InitializeProject
+0x00007ff79f46d292 (Unity) WinMain
+0x00007ff7a12e5fc6 (Unity) __scrt_common_main_seh
+0x00007ff8ebc57034 (KERNEL32) BaseThreadInitThunk
+0x00007ff8ecaa2651 (ntdll) RtlUserThreadStart
+
+Sub-import of Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(-1,00000000000000000000000000000000), Assets/Drone Components/DroneController.inputactions skipped because a previous one failed already
+ -> (artifact id: '234011688e8246464576830d5191c800') in 1.042923 seconds
+  Import took 1.044573 seconds (was aborted).
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

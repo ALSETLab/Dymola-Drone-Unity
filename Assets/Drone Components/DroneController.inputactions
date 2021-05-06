@@ -68,11 +68,33 @@
                 },
                 {
                     "name": "",
+                    "id": "1a0425c8-c931-49c0-9d0e-a0f91c685fc0",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X_Neg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "dad3d6c5-25e3-42a0-9de4-825f8a38d591",
                     "path": "<Gamepad>/leftStick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "General Gamepad",
+                    "action": "X_Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62636ecd-06e1-42c0-b7eb-18175871de77",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "X_Pos",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -90,11 +112,33 @@
                 },
                 {
                     "name": "",
+                    "id": "be6a747c-07b9-47f6-a56d-0eaea7952c3d",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Y_Neg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ac25abba-7b82-4dab-b87c-71a013502223",
                     "path": "<Gamepad>/leftStick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "General Gamepad",
+                    "action": "Y_Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7cf304f6-24b0-4da0-a887-d27a5c871029",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Y_Pos",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -112,8 +156,30 @@
                 },
                 {
                     "name": "",
+                    "id": "7d7d66cc-e855-4085-9abc-787010fa2beb",
+                    "path": "<Keyboard>/o",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Z_Pos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ef644c3d-eb64-43bc-9e0b-fccce550be3d",
                     "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Z_Neg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce8da2fd-1c69-43ec-8f40-d93b491723ec",
+                    "path": "<Keyboard>/p",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

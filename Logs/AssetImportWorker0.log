@@ -1,0 +1,225 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 16259 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Program Files/Unity_Repository/Dymola Drone FMU Revised
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51559
+Successfully changed project path to: D:/Program Files/Unity_Repository/Dymola Drone FMU Revised
+D:/Program Files/Unity_Repository/Dymola Drone FMU Revised
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 21.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity_Repository/Dymola Drone FMU Revised/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   
+    VRAM:     10077 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001399 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000555 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 22.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1418 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.0 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 1.605800 ms (FindLiveObjects: 0.126900 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.384800 ms  DeleteObjects: 0.047000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Drone Components/DroneController.inputactions
+  artifactKey: Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneController.inputactions using Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d1b347451bcd9b50196b1d274802d4') in 0.028897 seconds
+  Import took 0.030831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.920770 seconds.
+  path: Assets/Drone Components/DroneMovement.cs
+  artifactKey: Guid(b43cb87554b249842ab4c9a04e0a81f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneMovement.cs using Guid(b43cb87554b249842ab4c9a04e0a81f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dee0e92bd3e1c5a1b13ab305b6c55ac') in 0.009963 seconds
+  Import took 0.019589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006315 seconds.
+  path: Assets/Drone Components/DroneMovement.cs
+  artifactKey: Guid(b43cb87554b249842ab4c9a04e0a81f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneMovement.cs using Guid(b43cb87554b249842ab4c9a04e0a81f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dee0e92bd3e1c5a1b13ab305b6c55ac') in 0.001306 seconds
+  Import took 0.003091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.226936 seconds.
+  path: Assets/Drone Components/DroneController.cs
+  artifactKey: Guid(bf90750f0bc36e14d925f3e88cb434d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneController.cs using Guid(bf90750f0bc36e14d925f3e88cb434d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897b73600e2c0dd7693c87b5b2c0a0dc') in 0.001239 seconds
+  Import took 0.018461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.807439 seconds.
+  path: Assets/Drone Components/DroneController.inputactions
+  artifactKey: Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneController.inputactions using Guid(8c339b01aa789cc4ba4ae6f56ba9d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11493317e1af5c38f2f672963d194a7c') in 0.002879 seconds
+  Import took 0.026018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.716956 seconds.
+  path: Assets/Drone Components/DroneController.cs
+  artifactKey: Guid(bf90750f0bc36e14d925f3e88cb434d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneController.cs using Guid(bf90750f0bc36e14d925f3e88cb434d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c8b67705f398f7994ce2151c3e5ebf') in 0.001152 seconds
+  Import took 0.005234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Drone Components/DroneController.cs
+  artifactKey: Guid(bf90750f0bc36e14d925f3e88cb434d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone Components/DroneController.cs using Guid(bf90750f0bc36e14d925f3e88cb434d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c8b67705f398f7994ce2151c3e5ebf') in 0.001139 seconds
+  Import took 0.002757 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.637 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.0 MB.
+System memory in use after: 80.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1883.
+Total: 1.418800 ms (FindLiveObjects: 0.116500 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.253800 ms  DeleteObjects: 0.009900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 1.528500 ms (FindLiveObjects: 0.135600 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.336000 ms  DeleteObjects: 0.010600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 1.358300 ms (FindLiveObjects: 0.122900 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.189100 ms  DeleteObjects: 0.009900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.615 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 1.377500 ms (FindLiveObjects: 0.138300 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.186500 ms  DeleteObjects: 0.010300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.612 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1412 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.1 MB.
+System memory in use after: 80.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 1.492800 ms (FindLiveObjects: 0.120300 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.321400 ms  DeleteObjects: 0.012200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
